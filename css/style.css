@@ -1,44 +1,130 @@
-body{
-    margin: 0;
-    padding: 0;
-    border: 0;
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-.header{
-    background-color: #232323;
-    width: 100%;
-    height: 10vh;
-    padding-top: 10px;
+.header {
+  background-color: #232323;
+  width: 100%;
+  height: 80px;
+  border-bottom: 5px solid orangered; /* 
+  Primeiro valor é o tamanho da borda 
+  o segundo valor é o tipo da borda
+  e o ultimo valor é a cor da borda
+  */
 }
 
-.logo{
-    font-family: Nunito;
+.logo {
+  font-family: Nunito;
 }
 
-.item_colorido{
-    color:orangered;
+.item_colorido {
+  color: orangered;
 }
 
-.container{
-    max-width: 60%;
-    height: 100%;
-    margin: 0 auto;
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  height: 100%;
 }
 
-.container h1{
-    float: left;
-    color: white
+.container .logo {
+  float: left;
+  color: white;
 }
 
 .container nav {
-    color: white;
-    list-style: none;
-    float: right;
-    margin-top: 15px;
+  color: white;
+  list-style: none;
+  float: right;
+  margin-top: 15px;
 }
 
-.container li{
-    display: inline-block;
-    margin-left: 2rem;
-    font-size: 1.2rem;
+.container li {
+  display: inline-block;
+  margin-left: 2rem;
+  font-size: 1.2rem;
 }
+
+.apresentacao {
+  text-align: center;
+  background-size: cover;
+  background-image: url("../img/team.png");
+  background-repeat: no-repeat;
+  min-height: 400px;
+  color: white;
+}
+
+.apresentacao p {
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.container .apresentacao__titulo {
+  padding-top: 50px;
+  font-size: 50px;
+  margin: 0;
+}
+
+.new {
+  padding-top: 30px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  height: 80px;
+  background-color: #232323;
+  color: #ffffff;
+}
+
+.new h1 {
+  margin: 0;
+  float: left;
+}
+
+.new .newsletter {
+  float: right;
+}
+
+.new input {
+  height: 25px;
+  width: 225px;
+}
+
+.btn-orange {
+  background-color: orangered;
+  color: #ffffff;
+  border: none;
+  width: 60px;
+  height: 30px;
+}
+
+.box {
+  height: 280px;
+  margin: 0 auto;
+  max-width: 1126px;
+}
+.box .item {
+  float: left;
+  text-align: center;
+  width: 300px;
+  margin: 14px auto;
+}
+
+.box .item img {
+  width: 150px;
+}
+
+.footer {
+  background-color: orangered;
+  height: 100px;
+}
+
+.footer p {
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+  color: white;
+  font-weight: 100;
+}
+

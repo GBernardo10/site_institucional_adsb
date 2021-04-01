@@ -1,0 +1,16 @@
+.pag-login {
+}
+
+.box-login {
+  box-shadow: 3px 3px 5px 2px #ccc; /* Cria uma sombra no elemento box-login */
+}
+.input-padrao {
+}
+
+.btn-green {
+  border-radius: 5px; /* Deixa arredondado as borda do elemento */
+  cursor: pointer; /* 
+  Deixa o ponteiro do mouse no formato maozinha
+  que representa para o usuario que aquele elemento pode ser clicavel
+   */
+}
